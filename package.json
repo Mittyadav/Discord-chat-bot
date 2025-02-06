@@ -1,0 +1,33 @@
+{
+  "name": "discord-chat-bot",
+  "version": "1.0.0",
+  "description": "Discord Auto Chat",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rambeboy/discord-chat-bot"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node main/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "index.js",
+    "build": "rm -rf app && javascript-obfuscator --config build-config.json"
+  },
+  "keywords": [
+    "discord",
+    "autochat",
+    "discord-grinding",
+    "discord-bot",
+    "rambeboy"
+  ],
+  "author": "Rambeboy",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "winston": "^3.17.0"
+  }
+}
