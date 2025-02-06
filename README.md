@@ -14,6 +14,9 @@ Auto send chat on discord specific channel, good for push rank level on MEE bot 
    ```
 3. Configure Enviroment Variable
    ```bash
+   cp -r .env.example .env
+   ```
+   ```bash
    nano .env
    ```
    Environment Example
