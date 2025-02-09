@@ -6,8 +6,11 @@ Auto send chat on discord specific channel, good for push rank level on MEE bot 
 
 1. Clone Project Repository
    ```bash
-   git clone https://github.com/Rambeboy/discord-chat-bot && cd discord-chat-bot
-   ```
+   git clone https://github.com/Mittyadav/Discord-chat-bot
+
+  ```bash
+    cd Discord-chat-bot
+ ```
 2. Install Dependencies
    ```bash
    npm install
